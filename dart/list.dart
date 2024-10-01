@@ -4,6 +4,7 @@ void hello(String name) {
 
 void main() {
   List<String> greetings = ["mehdi", "nadi", "alireza"];
+  //var greetings = ["mehdi", "nadi", "alireza"];
 
   for (var name in greetings) {
     hello(name);
