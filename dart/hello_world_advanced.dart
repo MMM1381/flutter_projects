@@ -1,8 +1,8 @@
-void hello() {
-  print("hello,world");
+void hello(String name) {
+  print("hello, $name");
 }
 
 void main() {
-  hello();
-  hello();
+  hello("world");
+  hello("mehdi");
 }
