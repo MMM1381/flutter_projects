@@ -5,5 +5,5 @@ void main() {
   String? input =
       stdin.readLineSync(); // the question mark (?) is for null safety
   // var input = stdin.readLineSync();
-  print(input);
+  print("$input the Great");
 }
